@@ -1,0 +1,20 @@
+{
+  "name": "js-youtube",
+  "version": "1.0.0",
+  "description": "A code repo of all my javascript learnings at chai aur code youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrachiiAgarwal/js-youtube.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrachiiAgarwal/js-youtube/issues"
+  },
+  "homepage": "https://github.com/PrachiiAgarwal/js-youtube#readme"
+}
