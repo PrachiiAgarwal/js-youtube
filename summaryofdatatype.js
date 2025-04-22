@@ -37,3 +37,31 @@ reference data type
 ==================
 array , object , function 
 only fn type of function and other object */
+
+
+
+// -----------------------------------------------
+
+// types of memory:-
+//1. Stack (used in primitive) -- whenever it is called the original is not accessed rather the copy is accessed hence, even after changing the copied value we get the same original as output
+let a = 10;
+let b = a;
+console.log(b); // 10
+b= 20;
+console.log(b); // 20
+console.log(a); //10
+// a=20; // this will not change the value of b and vice versa
+//2.Heap (used in non primitive) -- whenever it is called the original is called and the reference is passed to the copied value. hence, even after changing the copied value we get the changed value of original as output
+let obj = {
+  alpha = "abc" ;
+  age = 20 ;
+}
+let obj2= obj;
+obj2.name = "xyz" ;
+console.log(obj2.name); //xyz
+console.log(obj.name); //xyz
+// this is because the reference of obj is passed to obj2 and hence, when we change the value of obj2 it also changes the value of obj
+let name = "Doraemon";
+let anothername = name;
+
+console.log(anothername);
