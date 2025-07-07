@@ -29,3 +29,14 @@ const myArr = [0,1,2,3,4,5] // it can be mixed i.e. alphabets and numbers can co
  let myArr5 = myArr.splice(2,4) // removes the elements from index 2 to index 4 without including index 4
  // for example if Arr = [1,2,3,4,5] them myArr will be [1,2,5] and myArr5 will be [3,4]
  
+ //concat is used to join two or more arrays and returns anew array
+ const myArr6 = myArr5.concat(myArr4)
+ // Spread operator is used to join two or more arrays and returns a new array
+const myArr7 = [...myArr5, ...myArr4]
+//flat is used to flatten the array 
+// for example if Arr = [1,2,[3,4]] then myArr will be [1,2,3,4]
+// from keyword is used to create an array from an iterable object
+console.log(Array.from("Prachi")) //returns an array with elements being the letter of the word
+console.log(Array.from({ name:"Prachi"})) // returns empty array 
+// for keyword is used to create an array from an iterable object
+// for example if Arr = [1,2,[3,4]] then myArr will be [1,2,3,4]
